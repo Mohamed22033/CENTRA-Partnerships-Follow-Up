@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CENTRA Cybersecurity Partnership Portal">
+  <title>CENTRA | Cybersecurity Partnership Portal</title>
+
+  <!-- Google Font: You can replace this with a local font later if required -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- =========================
+       BACKGROUND EFFECTS
+       ========================= -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-two" aria-hidden="true"></div>
+  <div id="particles" aria-hidden="true"></div>
+
+  <!-- =========================
+       NAVIGATION
+       ========================= -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a class="brand" href="#top" aria-label="CENTRA home">
+        <!-- Replace this file with your real CENTRA logo:
+             assets/centra-logo.png -->
+        <div class="brand-logo-wrap">
+          <img src="assets/centra-logo.png" alt="CENTRA logo" class="brand-logo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <span class="brand-fallback">C</span>
+        </div>
+
+        <div class="brand-copy">
+          <strong>CENTRA</strong>
+          <span>Cybersecurity Partnership Portal</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#overview">Overview</a>
+        <a href="#team">Engineers</a>
+        <a href="#partners">Partnerships</a>
+      </nav>
+
+      <a class="nav-button" href="#team">
+        View Team
+        <span>↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================
+         HERO
+         ========================= -->
+    <section class="hero section" id="overview">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            CENTRA TECHNOLOGIES
+          </div>
+
+          <h1>
+            Cybersecurity
+            <span>Partnership Portal</span>
+          </h1>
+
+          <p class="hero-description">
+            A centralized executive view of CENTRA's cybersecurity vendor
+            partnerships, ownership, and responsible engineering team.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#team" class="btn btn-primary">
+              Explore Partnerships
+              <span>↓</span>
+            </a>
+            <a href="#partners" class="btn btn-secondary">
+              Partner Directory
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span class="meta-line"></span>
+              <span>Strategic Vendor Management</span>
+            </div>
+            <div>
+              <span class="meta-line"></span>
+              <span>Cybersecurity Division</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="orbital">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+
+            <div class="core">
+              <div class="core-ring"></div>
+              <div class="core-text">
+                <span>CENTRA</span>
+                <strong>SECURITY</strong>
+                <small>PARTNERSHIPS</small>
+              </div>
+            </div>
+
+            <span class="orbit-node node-one">F5</span>
+            <span class="orbit-node node-two">S</span>
+            <span class="orbit-node node-three">T</span>
+            <span class="orbit-node node-four">C</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         STATISTICS
+         ========================= -->
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <article class="stat-card reveal">
+          <div class="stat-icon">01</div>
+          <div>
+            <strong class="counter" data-target="5">0</strong>
+            <span>Cybersecurity Engineers</span>
+          </div>
+        </article>
+
+        <article class="stat-card reveal reveal-delay">
+          <div class="stat-icon">02</div>
+          <div>
+            <strong class="counter" data-target="13">0</strong>
+            <span>Technology Partners</span>
+          </div>
+        </article>
+
+        <article class="stat-card reveal reveal-delay-2">
+          <div class="stat-icon">03</div>
+          <div>
+            <strong class="counter" data-target="13">0</strong>
+            <span>Active Partnership Profiles</span>
+          </div>
+        </article>
+
+        <article class="stat-card reveal reveal-delay-3">
+          <div class="stat-icon">04</div>
+          <div>
+            <strong>100%</strong>
+            <span>Centralized Ownership View</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================
+         TEAM SECTION
+         ========================= -->
+    <section class="section team-section" id="team">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              PARTNERSHIP OWNERS
+            </div>
+            <h2>Cybersecurity Partnership Team</h2>
+          </div>
+
+          <p>
+            Engineers responsible for managing and following up with CENTRA's
+            strategic cybersecurity technology partnerships.
+          </p>
+        </div>
+
+        <!-- JavaScript renders engineer cards here -->
+        <div id="engineerGrid" class="engineer-grid"></div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PARTNER DIRECTORY
+         ========================= -->
+    <section class="section partners-section" id="partners">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              TECHNOLOGY ECOSYSTEM
+            </div>
+            <h2>Partner Directory</h2>
+          </div>
+
+          <p>
+            Search and filter all cybersecurity technology partners currently
+            represented by the CENTRA team.
+          </p>
+        </div>
+
+        <div class="directory-toolbar reveal">
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="partnerSearch" type="search"
+                   placeholder="Search partner or responsible engineer..."
+                   autocomplete="off">
+          </label>
+
+          <div class="filter-buttons" id="engineerFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+          </div>
+        </div>
+
+        <div id="partnerGrid" class="partner-grid"></div>
+
+        <div id="emptyState" class="empty-state" hidden>
+          <div class="empty-icon">⌕</div>
+          <h3>No matching partnership</h3>
+          <p>Try another company name or engineer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         MANAGEMENT NOTE
+         ========================= -->
+    <section class="section management-section">
+      <div class="container">
+        <div class="management-card reveal">
+          <div class="management-mark">CENTRA</div>
+
+          <div class="management-content">
+            <div class="eyebrow">
+              <span class="status-dot"></span>
+              MANAGEMENT VIEW
+            </div>
+            <h2>One portal. One clear ownership view.</h2>
+            <p>
+              Use this portal as a lightweight executive follow-up page for
+              cybersecurity vendor partnerships and responsible engineers.
+            </p>
+          </div>
+
+          <a class="btn btn-primary" href="#top">
+            Back to Top ↑
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       FOOTER
+       ========================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>CENTRA</strong>
+        <span>Cybersecurity Partnership Portal</span>
+      </div>
+
+      <span class="footer-note">
+        Internal partnership follow-up portal
+      </span>
+
+      <span class="footer-year">© <span id="year"></span> CENTRA</span>
+    </div>
+  </footer>
+
+  <!-- Modal for engineer details -->
+  <div class="modal" id="engineerModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-dialog" role="dialog" aria-modal="true"
+         aria-labelledby="modalEngineerName">
+      <button class="modal-close" type="button" aria-label="Close" data-close-modal>×</button>
+
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
