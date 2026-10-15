@@ -50,21 +50,21 @@ const engineers = [
         name: "F5",
         logo: "assets/vendors/f5.png",
         level: "Authorized Partner",
-        startDate: "",
+        startDate: "Oct 2026",
         endDate: ""
       },
       {
         name: "Splunk",
         logo: "assets/vendors/splunk.png",
-        level: "In Progress",
-        startDate: "",
+        level: "Associate Partner",
+        startDate: "Oct 2026",
         endDate: ""
       },
       {
         name: "Tenable",
         logo: "assets/vendors/tenable.png",
-        level: "In Progress",
-        startDate: "",
+        level: "Bronze Partner",
+        startDate: "Oct 2026",
         endDate: ""
       }
     ] 
@@ -102,14 +102,14 @@ const engineers = [
       {
         name: "Proofpoint",
         logo: "assets/vendors/proofpoint.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "Select",
         startDate: "",
         endDate: ""
       },
       {
         name: "Trellix",
         logo: "assets/vendors/trellix.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "Silver",
         startDate: "",
         endDate: ""
       },
@@ -123,28 +123,28 @@ const engineers = [
       {
         name: "A10",
         logo: "assets/vendors/a10.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "Member",
         startDate: "",
         endDate: ""
       },
       {
         name: "Utimaco",
         logo: "assets/vendors/utimaco.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "In Progress",
         startDate: "",
         endDate: ""
       },
       {
         name: "Entrust",
         logo: "assets/vendors/entrust.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "In Progress",
         startDate: "",
         endDate: ""
       },
       {
         name: "Thales",
         logo: "assets/vendors/thales.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "In Progress",
         startDate: "",
         endDate: ""
       }
@@ -176,7 +176,7 @@ const engineers = [
       {
         name: "Palo Alto Networks",
         logo: "assets/vendors/palo-alto-networks.png",
-        level: "UPDATE PARTNERSHIP LEVEL",
+        level: "In Progress",
         startDate: "",
         endDate: ""
       }
