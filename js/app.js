@@ -50,7 +50,7 @@ const engineers = [
         name: "F5",
         logo: "assets/vendors/f5.png",
         level: "Authorized Partner",
-        startDate: "Oct 2026",
+        startDate: "1/10/2026",
         endDate: ""
       },
       {
